@@ -9,7 +9,7 @@ public class QATesterTest {
 
     @Test
     public void getAllocation() {
-        Manager objectToTest = new Manager ();
+        QATester objectToTest = new QATester ();
         BigDecimal expectedAlloc = new BigDecimal ( 500 );
         Assert.assertNotNull ( objectToTest );
         Assert.assertThat ( objectToTest.getAllocation () , Is.is ( expectedAlloc ) );
